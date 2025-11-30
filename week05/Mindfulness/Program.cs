@@ -1,3 +1,32 @@
+// -------------------------------------------------------------
+// ADDITIONAL FEATURES BEYOND CORE REQUIREMENTS
+// -------------------------------------------------------------
+//
+// To go beyond the basic requirements of the Mindfulness Program,
+// I added the following enhancements:
+//
+// 1. Organized Activity Selection Using a Dictionary
+//    - Instead of using multiple if/else or switch statements,
+//      the program stores all activities in a Dictionary<int, Activity>.
+//      This makes the menu system cleaner, more scalable, and easier
+//      to maintain if new activities are added.
+//
+// 2. Improved Program Structure with Multiple Activity Classes
+//    - Each activity is fully separated into its own class file,
+//      making the project more modular and easier to extend.
+//      This also demonstrates proper use of inheritance.
+//
+// 3. Enhanced User Experience
+//    - Added input validation, cleaner menu navigation, and
+//      consistent UI formatting to make the program feel more polished.
+//    - Pausing, countdowns, and animations were improved within
+//      the activity classes to provide a smoother mindfulness flow.
+//
+// These additions help improve code readability, user experience,
+// and overall program maintainability, going beyond the minimum
+// assignment requirements.
+// -------------------------------------------------------------
+
 using System;
 using System.Collections.Generic;
 
@@ -44,3 +73,4 @@ class Program
         }
     }
 }
+
